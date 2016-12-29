@@ -1,0 +1,21 @@
+{
+  "suluPackage": true,
+  "name": "sulu-file-system-view-reload",
+  "description": "SULU reloaded",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulu-one/sulu-file-system-view-reload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sulu-one/sulu-file-system-view-reload/issues"
+  },
+  "homepage": "https://github.com/sulu-one/sulu-file-system-view-reload#readme"
+}
