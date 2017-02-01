@@ -24,9 +24,6 @@ Command.prototype.reloadHard = function reloadHard() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("ctrl+r", this.command.reload);
-	client.app.registerHotKey("f5", this.command.reload);
-	client.app.registerHotKey("ctrl+f5", this.command.reloadHard);
 };
 
 module.exports = Plugin;

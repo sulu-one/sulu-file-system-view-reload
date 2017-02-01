@@ -1,5 +1,20 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "ctrl+r" , 
+        "function" : "reload"
+      },
+      {
+        "key" : "f5" , 
+        "function" : "reload"
+      },
+      {
+        "key" : "ctrl+f5" , 
+        "function" : "reloadHard"
+      }
+    ]
+  }, 
   "name": "sulu-file-system-view-reload",
   "description": "SULU reloaded",
   "version": "1.0.2",
