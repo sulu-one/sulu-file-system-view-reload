@@ -1,23 +1,23 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+r" , 
-        "function" : "reload"
+        "key": "ctrl+r",
+        "function": "reload"
       },
       {
-        "key" : "f5" , 
-        "function" : "reload"
+        "key": "f5",
+        "function": "reload"
       },
       {
-        "key" : "ctrl+f5" , 
-        "function" : "reloadHard"
+        "key": "ctrl+f5",
+        "function": "reloadHard"
       }
     ]
-  }, 
+  },
   "name": "sulu-file-system-view-reload",
   "description": "SULU reloaded",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
